@@ -27,6 +27,10 @@ app.get('/coolAnimals', function(req, res){
 app.get('/contact', function(req, res){
     res.render('contact');
 })
+//route error handler at the end
+app.get('*', function(req, res){
+    res.status(404).send('what???');
+  });
 //give local port to serve
 app.listen(port, function(){
     console.log('running on port 3000');
