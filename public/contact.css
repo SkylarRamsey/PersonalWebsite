@@ -1,0 +1,20 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240,239,239);
+    background-image: url(https://images.unsplash.com/photo-1562408590-e32931084e23?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZWxlY3Ryb25pY3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.contact {
+    color: #fff;
+    text-align: center;
+    /* width: 50rem; */
+    /* padding: 3rem; */
+    margin: 1rem auto;
+    font-size: x-large;
+    backdrop-filter: blur(5px);
+    border-radius: 0.5rem;
+}

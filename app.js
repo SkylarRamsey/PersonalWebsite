@@ -20,13 +20,16 @@ app.get('/resume', function(req, res){
     res.render('resume');
 })
 
-app.get('/coolAnimals', function(req, res){
-    res.render('coolAnimals');
-})
+// app.get('/coolAnimals', function(req, res){
+//     res.render('coolAnimals');
+// })
 
 app.get('/contact', function(req, res){
     res.render('contact');
 })
+// app.get('/christmas', function(req, res){
+//     res.render('christmas');
+// })
 //route error handler at the end
 app.get('*', function(req, res){
     res.status(404).send('what???');

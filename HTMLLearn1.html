@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Learning - HTML</title>
+</head>
+
+<body>
+    <nav>
+        <!--nav is a div with a more specific name-->
+        <ul>
+            <li><a href="Home">Home</a></li>
+            <li><a href="About">About</a></li>
+            <li><a href="Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!--main is a div with a more specific name-->
+
+        <header>
+            <h1>Learning HTML</h1>
+        </header>
+
+    <hr>
+    <!-- hr tag Creates a line across the page-->
+
+    <h2>Hello, this is lesson 1 on html.</h2>
+
+    <h3>Elements level 3 header</h3>
+
+    <p>This is basic <b>bold</b> text.</p>
+
+    <p>Creating a paragraph is simple!</p>
+
+    <p>
+        Exlamation point then pressing tab can create all the
+        boiler plate you need
+    </p>
+
+    <p>
+        VS Code can autoformat by going to Ctrl-shift-p to open command pallete
+        and entering format
+    </p>
+
+    <p>Right click and select inspect to view source code and elements.</p>
+
+    <h4>Create an unordered list</h4>
+    <p>
+        Lists require the list child to create the options within
+        the list type
+    </p>
+    <ul>
+        <li>Option 1</li>
+        <li>Option 2</li>
+        <li>Option 3</li>
+    </ul>
+
+    <h4>Create an ordered list</h4>
+    <ol>
+        <li>Option 1</li>
+        <li>Option 2</li>
+        <li>Option 3</li>
+    </ol>
+
+    <h4>Create a nested unordered list</h4>
+    <ul>
+        <li>Option 1</li>
+        <ul>
+            <li>Option A</li>
+            <li>Option B</li>
+        </ul>
+        <li>Option 2</li>
+        <li>Option 3</li>
+    </ul>
+
+    <h4>Anchor tags create hyperlinks</h4>
+    <a HREF="https://www.google.com/">I AM A LINK TO GOOGLE</a>
+    <p>
+        Anchors require the HREF attribute which is a hypertext reference
+        which holds the URL that the hyperlink attaches to
+    </p>
+    <a href="HTMLLearn2.html">ABOUT PAGE</a>
+    <p>
+        Can create links to local files
+    </p>
+
+    <hr>
+
+    <section>
+        <!--section is more specific div-->
+    <h4>Images</h4>
+    <p>
+        Images require the SRC attribute which is a file reference
+        which holds the file name of the image.
+    </p>
+    <img src="htmlImage.png" alt="">
+
+    <p>
+        Images can also use URL links rather than local files as SRC
+        <br>
+        ALT attribute of Images are text descriptions of the image if it can not be found
+        or read it out for screen readers
+    </p>
+    <img src="https://www.computerhope.com/jargon/h/html-head.jpg"
+        alt="Text description of image if image can not be found">
+
+    <p>
+        Images do not have to be within the same folder,
+        they can be lower in the directory of the project.
+    </p>
+    <img src="ExampleFolder/htmlExample.png">
+
+    </section>
+
+    <p>
+        Break tag (&lt; br &gt;) moves text to the next
+        <!--This uses HTML entities-->
+        <!--HTML Entities start with & and end with ; to create special characters-->
+        <!--These can be used to display reserved values such as < and > seen here-->
+        <br>
+        line
+    </p>
+
+    <!--THIS IS A COMMENT-->
+
+    <div>
+    <h4>Divs</h4>
+        <p>
+            Divs are generic containers to group elements as a block
+        </p>
+    </div>
+
+<!--Spans are in-line containers-->
+
+<h4>Superscripts and Subscripts</h4>
+<p>
+    Hello<sup>[2]</sup>
+    <br>
+    Hi <sub> <a href="FakeLink.com">[3]</a></sub>
+    <br>
+    Can make them links by adding an anchor tag within the element.
+</p>
+
+
+</main>
+<footer>
+    <p>
+        This is a footer
+        <ul>
+            <li><a href="Home">Home</a></li>
+            <li><a href="About">About</a></li>
+            <li><a href="Contact">Contact</a></li>
+        </ul>
+    </p>
+</footer>
+</body>
+
+</html>
